@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
     --background-primary: ##F4F5FB;
     --background-secondary: #FFFFFF;
@@ -23,25 +17,49 @@
     --border-hover: #B9C2D0;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
 body {
     background-color: var(--background-primary);
 }
 
 .container {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    max-width: 80rem;
+    max-width: 48rem;
     margin: 0 auto;
 }
 
 header {
     padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header img {
     width: 10rem;
     height: 4rem;
+}
+
+.btn-return {
+    color: var(--color-brand);
+    font-size: .875rem;
+    line-height: 1rem;
+    font-weight: medium;
+    margin-top: 3.8rem;
+}
+
+.btn-return::before {
+    content: "<-";
+    margin-right: .5rem;
 }
