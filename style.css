@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --background-primary: ##F4F5FB;
     --background-secondary: #FFFFFF;
@@ -15,4 +21,28 @@
 
     --border-primary: #D1D5DB;
     --border-hover: #B9C2D0;
+}
+
+body {
+    background-color: var(--background-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 80rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+header img {
+    width: 10rem;
+    height: 4rem;
 }
