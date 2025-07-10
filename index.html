@@ -14,7 +14,35 @@
         </header>
 
         <a href="#" class="btn-return">Voltar</a>
+
+        <h1>Compras da semana</h1>
+
+        <form action="" class="form">
+            <input type="text" name="name" id="name" placeholder="Adicione um novo item">
+            <button class="submit">Adicionar item</button>
+        </form>
+
+        <div class="listContainer">
+            <ul>
+                <li class="listItem">
+                    <input type="checkbox" id="checkbox">
+                    <p>Pão de Forma</p>
+                    <button id="deleteButton"><img src="/assets/trash.svg" alt="Trash Icon"></button>
+                </li>
+                <li class="listItem">
+                    <input type="checkbox" id="checkbox">
+                    <p>Café Preto</p>
+                    <button id="deleteButton"><img src="/assets/trash.svg" alt="Trash Icon"></button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="removeWarning" id="removeAlert">
+            <p>O item foi removido da lista</p>
+        </div>
+
+
     </main>
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
 </body>
 </html>
