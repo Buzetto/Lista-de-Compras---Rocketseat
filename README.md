@@ -13,8 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="#-sobre-o-projeto">Sobre</a> •
-  <a href="#-funcionalidades">Funcionalidades</a> • 
+  <a href="#-sobre-o-projeto">Sobre</a> • 
   <a href="#-tecnologias">Tecnologias</a> • 
   <a href="#-objetivos-de-aprendizagem">Aprendizados</a> • 
   <a href="#-como-executar">Como Executar</a> • 
@@ -26,13 +25,6 @@
 Este projeto foi desenvolvido durante o curso da **Rocketseat**, como um desafio prático para consolidar os conhecimentos de HTML e CSS e, principalmente, aprofundar nas funcionalidades do **JavaScript**.
 
 O objetivo central foi construir uma aplicação web interativa, focando na **manipulação do DOM (Document Object Model)**. Através dele, foram implementadas funcionalidades dinâmicas que respondem às ações do usuário em tempo real, sem a necessidade de recarregar a página. Além disso, foi dada atenção especial à criação de um **layout responsivo**, que se adapta a diferentes tamanhos de tela (desktop e mobile).
-
-## ✨ Funcionalidades
-
-- [ ] **Funcionalidade 1:** (Ex: Troca de tema entre light e dark mode).
-- [ ] **Funcionalidade 2:** (Ex: Abertura e fechamento de um menu modal).
-- [ ] **Funcionalidade 3:** (Ex: Adição e remoção de itens de uma lista).
-- [ ] **Layout Responsivo:** A interface se ajusta para uma melhor experiência em desktops e smartphones.
 
 ## 🚀 Tecnologias
 
@@ -79,17 +71,16 @@ $ cd [NOME-DA-PASTA-DO-PROJETO]
 
 Você também pode acessar a versão final do projeto através deste link:
 
-➡️ **[Acesse o projeto online aqui!]([LINK PARA O PROJETO NO AR])**
+➡️ **[Acesse o projeto online aqui!]([[LINK PARA O PROJETO NO AR](https://lista-de-compras-rocketseat-one.vercel.app/)])**
 
 ## 👨‍💻 Autor
 
-Feito com ❤️ por **[Seu Nome]**.
+Feito com dedicação por **[Victor]**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([SEU LINK DO LINKEDIN])
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)]([SEU LINK DO GITHUB])
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victoraugustobuzetto/)
 
 ---
 
-### 🙏 Agradecimentos
+### Agradecimentos
 
 Agradeço à **Rocketseat** pelo conteúdo e pelos desafios que impulsionam o aprendizado na prática.
