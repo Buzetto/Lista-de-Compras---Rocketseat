@@ -1,61 +1,42 @@
-const taskInput = document.getElementById("input");
+const input = document.getElementById("name");
 const addTaskButton = document.getElementById("button");
 const form = document.querySelector("form");
-
 const taskList = document.querySelector("ul");
 const deleteTaskButton = document.getElementById("deleteButton");
 const checkbox = document.getElementById("checkbox");
-
 const removeAlert = document.getElementById("removeAlert");
 
-taskInput.addEventListener("input", () => {});
+//Função para quando apertar o botao do forms, acontecer o código
+form.addEventListener('submit', function(e) {
+    e.preventDefault(); //Faz com que a pagina nao seja carregada quando clicado
 
-form.onsubmit = (event) => {
-  event.preventDefault();
-  const newTask = taskInput.value;
+    const valor = input.value.trim();
+    if (valor === "") return alert('Valor Vazio'); //Nao deixar adicionar no input vazio
 
-  if (newTask === "") {
-    alert("Please enter a task.");
-  } else {
-    addTask(newTask);
-    taskInput.value = "";
-  }
-};
+    const list = document.createElement('li');
+    list.classList.add('listItem'); //Adiciona a classe na LI
 
-function addTask(task) {
-  const listItem = document.createElement("li");
+    list.innerHTML = `
+    <input type="checkbox" id="checkbox">
+    <p>${valor}</p>
+    <button id="deleteButton"><img src="/assets/trash.svg" alt="Trash Icon"></button>`
+    
+    taskList.appendChild(list); //Colocar a LI dentro da UL
 
-  const checkbox = document.createElement("input");
-
-  const taskText = document.createElement("p");
-
-  const deleteButton = document.createElement("button");
-
-  deleteButton.addEventListener("click", () => removeTask(listItem));
-
-  listItem.appendChild(checkbox);
-  listItem.appendChild(taskText);
-  listItem.appendChild(deleteButton);
-
-  document.querySelector(".listContainer ul").appendChild(listItem);
-}
-
-// Função para remover uma tarefa
-function removeTask(listItem) {
-  listItem.remove();
-  showRemoveAlert();
-}
-
-// Função para exibir o alerta de remoção
-function showRemoveAlert() {
-  removeAlert.style.display = "flex";
-  setTimeout(() => {
-    removeAlert.style.display = "none";
-  }, 2000);
-}
-
-document.querySelectorAll("#deleteButton").forEach((button) => {
-  button.addEventListener("click", function () {
-    removeTask(this.parentElement);
-  });
+    //Função para excluir a LI criada
+    const trash = list.querySelector('#deleteButton')
+    trash.addEventListener('click', () => {
+        list.remove();
+        showMessageRemove();        
+    });
 });
+
+
+//Função para aparecer a mensagem de remocao
+function showMessageRemove() {
+    removeAlert.classList.remove('hidden');
+
+    setTimeout(() => {
+        removeAlert.classList.add('hidden');
+    }, 3000);
+}
