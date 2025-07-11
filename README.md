@@ -1,13 +1,13 @@
-# [Nome do Projeto]
+# [Projeto Prático Rocketseat - Quicklist]
 
 ![Badge de Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)
 ![Badge da Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)
 
 <p align="center">
-  <em>Um breve slogan ou descrição de uma linha sobre o projeto.</em>
+  <em>Projeto de estudo para aplicar os conceitos básicos de Javascript e HTML e CSS ja estudado previamente.</em>
   <br>
   <br>
-  <a href="[LINK PARA O PROJETO NO AR]">
+  <a href="(https://lista-de-compras-rocketseat-one.vercel.app/)">
     <img src="[LINK PARA UMA IMAGEM OU GIF DO SEU PROJETO]" alt="Demonstração do projeto" width="700"/>
   </a>
 </p>
