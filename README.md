@@ -8,7 +8,7 @@
   <br>
   <br>
   <a href="(https://lista-de-compras-rocketseat-one.vercel.app/)">
-    <img src="[LINK PARA UMA IMAGEM OU GIF DO SEU PROJETO]" alt="Demonstração do projeto" width="700"/>
+    <img src="(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXowajN1b3Y0d3dtenV1NDVneHV4azU1d2NlNTJrNWZubG5va3BkciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DWp7TF6xurDVsw5pCf/giphy.gif)" alt="Demonstração do projeto" width="700"/>
   </a>
 </p>
 
